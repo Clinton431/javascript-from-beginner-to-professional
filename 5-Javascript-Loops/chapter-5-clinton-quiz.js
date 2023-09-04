@@ -26,3 +26,16 @@ for (let i = 1; i <= numValues; i++) {
 
     multiplicationTable.push(tempRow);
 }
+
+// Assuming you have already generated the multiplicationTable array as shown in the previous example
+
+for (let i = 0; i < multiplicationTable.length; i++) {
+  let row = multiplicationTable[i];
+  let rowString = "";
+
+  for (let j = 0; j < row.length; j++) {
+    rowString += row[j] + "\t"; // Separate values with tabs for formatting
+  }
+
+  console.log(rowString); // Print each row to the console
+}
