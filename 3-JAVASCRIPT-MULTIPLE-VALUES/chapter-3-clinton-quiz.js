@@ -44,7 +44,7 @@ inventory.push(newItem);
 // Accessing and logging the added item
 console.log("Newly added item", inventory[inventory.length - 1]);
 
-//updating the quantity of the seconf item
+//updating the quantity of the second item
 inventory[1].quantity += 5;
 
 console.log("Updated quantity of the second item:", inventory[1].quantity);
